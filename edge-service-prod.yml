@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    gateway:
+      redis-rate-limiter:
+        include-headers: false
